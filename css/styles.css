@@ -1,0 +1,134 @@
+body {
+    font-family: Verdana;
+    background-color: #C9C9C9;
+    color: #593D36;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  padding: 20px
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+section {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding-bottom: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #6B544C; 
+  color: #FEFFEA;
+  border: 3px solid #462820;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #FEFFEA;
+    border: 3px solid #8b5e3c;
+    color: #8b5e3c;
+    font-weight: bold;
+}
+
+nav ul li a:active {
+  background-color: #462820;
+  border: 3px solid #8b5e3c;
+  font-weight: bold;
+  color: #8b5e3c;
+  transform: scale(0.90);
+}
+
+button {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #6B544C; 
+  color: #FEFFEA;
+  border: 3px solid #462820;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FEFFEA;
+    border: 3px solid #8b5e3c;
+    color: #8b5e3c;
+    font-weight: bold;
+}
+
+button:active {
+  background-color: #462820;
+  border: 3px solid #8b5e3c;
+  font-weight: bold;
+  color: #8b5e3c;
+  transform: scale(0.90);
+}
+
+#cat-container {
+  display: flex;
+  justify-content: center;
+}
+
+#catForm button {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+input[type="text"], input[type="date"], select{
+  background-color: #6B544C;
+  color: #FEFFEA;
+  border: 3px solid #462820;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus, input[type="date"]:focus, select option{
+  outline: none;
+  font-weight: bold;
+  border-color: #8b5e3c;
+  background-color: #FEFFEA;
+  color: #8b5e3c
+}
+
+input::placeholder {
+  color: #462820;
+  font-weight: bold;
+  opacity: 1;
+}

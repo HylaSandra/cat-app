@@ -1,0 +1,12 @@
+{
+  "name": "Cat App",
+  "short_name": "CatApp",
+  "description": "PWA do rejestrowania kotów i oglądania losowych zdjęć kotów.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffcccb",
+  "orientation": "portrait"
+}
+
+

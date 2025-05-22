@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zarejestruj kota - Cat App</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header>
+    <h1>Cat App</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Strona główna</a></li>
+        <li><a href="register.html">Zarejestruj kota</a></li>
+        <li><a href="random-cat.html">Losowy kot</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Zarejestruj kota</h2>
+      <form id="catForm">
+        <label>
+          Imię:
+          <input type="text" name="name" required>
+        </label><br><br>
+
+        <label>
+          Płeć:
+          <select name="gender" required>
+            <option value="">Wybierz...</option>
+            <option value="Samiec">Samiec</option>
+            <option value="Samica">Samica</option>
+          </select>
+        </label><br><br>
+
+        <label>
+          Data urodzenia:
+          <input type="date" name="birthdate" required>
+        </label><br><br>
+
+        <label>
+          Rasa:
+          <input type="text" name="breed" required>
+        </label><br><br>
+
+        <button type="submit">Zapisz kota</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Twoje koty</h2>
+      <ul id="catList">
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>2025 SH</p>
+  </footer>
+
+  <script src="js/db.js"></script>
+  <script src="js/register.js"></script>
+</body>
+</html>
